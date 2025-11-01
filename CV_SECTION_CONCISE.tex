@@ -1,0 +1,13 @@
+% ATS-Optimized CV Section - Concise Version
+% This version is more similar to the original format but with verified technical details
+% Copy this section into your CV LaTeX document
+
+\cvitem{\textbf{Real-Time Tactile Sensing System (Master Thesis) \textcolor{blue}{\href{https://resolver.tudelft.nl/uuid:012aeaa6-55b9-497d-8dd5-de783d0a5c98}{[link]}}} $|$ \scriptsize \textit{Python | PyTorch | NumPy | Pandas | Matplotlib | OpenCV | Real-time Inference}}{ % 
+\\ Created in a team of 3 across three departments, a novel multimodal tactile sensing platform uniting high-speed vision and force sensing to deliver real-time force, position, and shape estimation, bridging advanced robotics, ML, and healthcare technologies.
+\begin{itemize}
+    \item Collected, cleaned, and synchronized large-scale \textbf{video and force datasets} from hardware (NI-DAQ sensors at 5000 Hz, Basler cameras at 50 Hz) for training and evaluation using custom Python acquisition pipeline
+    \item Built preprocessing and validation pipelines using \textbf{Pandas}, \textbf{NumPy}, and \textbf{Matplotlib} to merge multi-trial datasets, handle missing data, and generate ML-ready CSV formats with automated quality control
+    \item Designed \textbf{data augmentation} framework with \textbf{OpenCV} applying geometric transformations and noise injection, implemented \textbf{dataset quality metrics} and performance evaluation scripts with \textbf{scikit-learn} for continuous data auditing
+    \item Implemented a \textbf{multi-task convolutional neural network} with ResNet-18 backbone using \textbf{PyTorch} for simultaneous force vector prediction, indentation position acquisition, and shape classification, optimized for 10 Hz live inference with \textbf{CUDA} acceleration
+    \item Accomplished high-precision tactile sensing — achieving 0.1459 N RMSE in force vector regression, sub-millimeter position acquisition accuracy, and 96.2\% shape classification accuracy — by developing a complete multimodal sensing system that captured and processed photoelastic fringe patterns in real time
+\end{itemize}}

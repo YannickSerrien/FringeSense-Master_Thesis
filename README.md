@@ -132,6 +132,20 @@ input_images = "inference/new_images/"
 
 ---
 
+## 📚 Additional Documentation
+
+For comprehensive project documentation and CV materials:
+
+- **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)** - Detailed technical overview of the entire project, architecture, and performance metrics
+- **[CV_SECTION_CONCISE.tex](CV_SECTION_CONCISE.tex)** - ATS-optimized CV section ready for LaTeX documents (recommended)
+- **[CV_SECTION.tex](CV_SECTION.tex)** - Extended CV section with detailed technical accomplishments
+- **[DOCUMENTATION_README.md](DOCUMENTATION_README.md)** - Guide to using the documentation files
+- **[SUMMARY.md](SUMMARY.md)** - Quick reference summarizing all created documentation
+
+**Published Thesis:** [TU Delft Repository](https://resolver.tudelft.nl/uuid:012aeaa6-55b9-497d-8dd5-de783d0a5c98)
+
+---
+
 💡 **Pro Tip**: Start with small datasets and short acquisition times to validate your setup before scaling up.
 
 For detailed parameter explanations and advanced configuration, see inline documentation in each module's main script.
