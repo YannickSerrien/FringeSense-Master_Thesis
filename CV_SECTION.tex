@@ -1,0 +1,15 @@
+% ATS-Optimized CV Section for FringeSense Master's Thesis Project
+% Copy this section into your CV LaTeX document
+% Optimized for Applicant Tracking Systems (ATS) with clear keywords and structure
+
+\cvitem{\textbf{Real-Time Tactile Sensing System (Master Thesis) \textcolor{blue}{\href{https://resolver.tudelft.nl/uuid:012aeaa6-55b9-497d-8dd5-de783d0a5c98}{[link]}}} $|$ \scriptsize \textit{Python | PyTorch | NumPy | Pandas | Matplotlib | OpenCV | scikit-learn | Real-time ML}}{ % 
+\\ Developed a novel multimodal tactile sensing platform uniting high-speed vision and force sensing for real-time force vector, contact position, and shape estimation, integrating advanced robotics, machine learning, and precision instrumentation across three interdisciplinary departments.
+\begin{itemize}
+    \item Engineered end-to-end data acquisition system synchronizing 6-axis force sensors (5000 Hz) and Basler cameras (50 Hz) using \textbf{NI-DAQ}, \textbf{pypylon}, and \textbf{threading}, implementing robust frame loss diagnostics and timestamp alignment for ground-truth ML labeling
+    \item Built comprehensive preprocessing pipeline with \textbf{Pandas} and \textbf{NumPy} to clean, merge, and validate large-scale multimodal datasets, creating ML-ready CSV outputs with automated quality metrics and missing data handling
+    \item Designed and implemented data augmentation framework using \textbf{OpenCV} and \textbf{PIL}, applying geometric transformations, noise injection, and intensity variations while preserving contact point tracking for robust model training across desktop and supercomputer environments
+    \item Developed multi-task convolutional neural network with \textbf{PyTorch} and ResNet-18 backbone for simultaneous 7-dimensional force vector regression, contact position prediction, and shape classification, optimizing architecture for real-time inference at 10 Hz
+    \item Achieved high-precision tactile sensing with 0.1459 N RMSE in force vector prediction, sub-millimeter position accuracy, and 96.2\% shape classification accuracy by training deep learning models on photoelastic fringe patterns using \textbf{PyTorch}, \textbf{torchvision}, and custom loss functions
+    \item Implemented real-time inference system with \textbf{CUDA} acceleration supporting batch and live camera modes, delivering predictions at 10 Hz with comprehensive visualization using \textbf{Matplotlib} and result logging
+    \item Performed model evaluation and hyperparameter optimization using \textbf{scikit-learn} metrics (RMSE, accuracy, precision, recall, F1-score), generating confusion matrices and classification reports with \textbf{Seaborn} visualizations for publication-ready results
+\end{itemize}}
